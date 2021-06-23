@@ -96,7 +96,7 @@ public class LoginActivity extends AppCompatActivity {
                         if(task.isSuccessful()) {
                             Toast.makeText(LoginActivity.this, "Login successfully", Toast.LENGTH_SHORT).show();
                             String id = mAuth.getUid();
-                            if(id.equals("iQGrNjS5hyVRA6EHuCliSCBCvJ02")) {
+                            if(id.equals("2EUUBTaDQlVNkM35RC8nU39zvrD2")) {
                                 Toast.makeText(LoginActivity.this, "admin", Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(LoginActivity.this,AdminPanel.class));
 
